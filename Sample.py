@@ -53,6 +53,11 @@ class Solution:
 # Did this code successfully run on Leetcode : Yes
 # Any problem you faced while coding this : Yes
 
+# Approach:
+
+# Comparing outer nodes (left.left vs right.right) and inner nodes (left.right vs right.left) recursively
+# Ensuring current node values match and both subtree checks pass
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
